@@ -7,3 +7,5 @@
 - [JZ7 斐波那契数列](./JZ7斐波那契数列/fibonacci.cpp)
 - [JZ9 跳台阶扩展问题](./JZ9跳台阶扩展问题/jump_float.cpp)
 - [JZ16 合并两个排序的列表](./JZ16合并两个排序的列表/merge_list.cpp)
+- [JZ18 二叉树的镜像](./JZ18二叉树的镜像/mirror_tree_node.cpp)
+- [JZ28 数组中出现次数超过一半的次数](./JZ28数组中出现次数超过一半的次数/more_than_half_num.cpp)
