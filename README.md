@@ -9,3 +9,5 @@
 - [JZ16 合并两个排序的列表](./JZ16合并两个排序的列表/merge_list.cpp)
 - [JZ18 二叉树的镜像](./JZ18二叉树的镜像/mirror_tree_node.cpp)
 - [JZ28 数组中出现次数超过一半的次数](./JZ28数组中出现次数超过一半的次数/more_than_half_num.cpp)
+- [ZJ30 连续子数组的最大和](./ZJ30连续子数组的最大和/find_greatest_sum.cpp)
+- [JZ43 第一个只出现一次的字符位置](./JZ43第一个只出现一次的字符位置/find_first_char.cpp)
