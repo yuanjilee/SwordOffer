@@ -2,7 +2,7 @@
 using namespace std;
 /**
  * 题目：
- * 输入："google"   输出：4
+ * 输入：
  * 考点：
  * 分析：
  */

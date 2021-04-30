@@ -1,6 +1,8 @@
 # SwordOffer
 
 《剑指 offer》学习笔记，C++实现
+编译环境：c++11
+测试工具：VSCode
 
 - [JZ5 用两个栈实现队列](./JZ5用两个栈实现队列/stack.cpp)
 - [JZ6 旋转数组的最小数字](./JZ6旋转数组的最小数字/min_array.cpp)
@@ -10,4 +12,6 @@
 - [JZ18 二叉树的镜像](./JZ18二叉树的镜像/mirror_tree_node.cpp)
 - [JZ28 数组中出现次数超过一半的次数](./JZ28数组中出现次数超过一半的次数/more_than_half_num.cpp)
 - [ZJ30 连续子数组的最大和](./ZJ30连续子数组的最大和/find_greatest_sum.cpp)
+- [JZ36 两个链表的第一个公共节点](./JZ36两个链表的第一个公共节点/find_common_node.cpp)
 - [JZ43 第一个只出现一次的字符位置](./JZ43第一个只出现一次的字符位置/find_first_char.cpp)
+- [ZJ48 不用加减乘除做加法](./ZJ48不用加减乘除做加法/add.cpp)
