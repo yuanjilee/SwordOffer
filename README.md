@@ -17,3 +17,5 @@
 - [JZ48 不用加减乘除做加法](./JZ48不用加减乘除做加法/add.cpp)
 - [JZ50 数组中重复的数字](./JZ50数组中重复的数字/duplicate.cpp)
 - [JZ51 构建乘积数组](./JZ51构建乘积数组/multiply.cpp)
+- [JZ21 二维数组中的查找](./JZ21二维数组中的查找/find_from_array.cpp)
+- [JZ11 二进制中 1 的个数](./JZ11二进制中1的个数/number_of_1.cpp)
