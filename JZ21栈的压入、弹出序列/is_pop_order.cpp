@@ -13,7 +13,7 @@ using namespace std;
  */
 
 /**
- * 解法一：
+ * 解法一：O(n)
  * 时间复杂度：
  */
 

@@ -14,6 +14,7 @@
 - [JZ18 二叉树的镜像](./JZ18二叉树的镜像/mirror_tree_node.cpp)
 - [JZ21 栈的压入、弹出序列](./JZ21栈的压入、弹出序列/is_pop_order.cpp)
 - [JZ28 数组中出现次数超过一半的次数](./JZ28数组中出现次数超过一半的次数/more_than_half_num.cpp)
+- [JZ29 最小的 k 个数](./JZ29最小的k个数/least_numbers.cpp)
 - [JZ30 连续子数组的最大和](./JZ30连续子数组的最大和/find_greatest_sum.cpp)
 - [JZ36 两个链表的第一个公共节点](./JZ36两个链表的第一个公共节点/find_common_node.cpp)
 - [JZ43 第一个只出现一次的字符位置](./JZ43第一个只出现一次的字符位置/find_first_char.cpp)
