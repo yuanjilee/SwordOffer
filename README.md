@@ -10,6 +10,8 @@
 - [JZ7 斐波那契数列](./JZ7斐波那契数列/fibonacci.cpp)
 - [JZ9 跳台阶扩展问题](./JZ9跳台阶扩展问题/jump_float.cpp)
 - [JZ11 二进制中 1 的个数](./JZ11二进制中1的个数/number_of_1.cpp)
+- [JZ14 链表中倒数第 k 个节点](./JZ14链表中倒数第k个节点/find_k_from_tial.cpp)
+- [JZ15 反转链表](./JZ15反转链表/reverse_list_node.cpp)
 - [JZ16 合并两个排序的列表](./JZ16合并两个排序的列表/merge_list.cpp)
 - [JZ18 二叉树的镜像](./JZ18二叉树的镜像/mirror_tree_node.cpp)
 - [JZ21 栈的压入、弹出序列](./JZ21栈的压入、弹出序列/is_pop_order.cpp)
@@ -21,3 +23,4 @@
 - [JZ48 不用加减乘除做加法](./JZ48不用加减乘除做加法/add.cpp)
 - [JZ50 数组中重复的数字](./JZ50数组中重复的数字/duplicate.cpp)
 - [JZ51 构建乘积数组](./JZ51构建乘积数组/multiply.cpp)
+- [JZ55 链表中环的入口节点](./JZ55链表中环的入口节点/entrance_node_of_circle.cpp)
