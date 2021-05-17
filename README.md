@@ -20,6 +20,7 @@
 - [JZ30 连续子数组的最大和](./JZ30连续子数组的最大和/find_greatest_sum.cpp)
 - [JZ36 两个链表的第一个公共节点](./JZ36两个链表的第一个公共节点/find_common_node.cpp)
 - [JZ38 二叉树的深度](./JZ38二叉树的深度/tree_depth.cpp)
+- [JZ39 平衡二叉树](./JZ39平衡二叉树/is_balanced_tree.cpp)
 - [JZ43 第一个只出现一次的字符位置](./JZ43第一个只出现一次的字符位置/find_first_char.cpp)
 - [JZ48 不用加减乘除做加法](./JZ48不用加减乘除做加法/add.cpp)
 - [JZ50 数组中重复的数字](./JZ50数组中重复的数字/duplicate.cpp)
