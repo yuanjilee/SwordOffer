@@ -25,5 +25,3 @@ struct TreeNode {
 #endif
 
 #endif /* __cplusplus */
-
-TreeNode *initBTree(int elements[], int size);

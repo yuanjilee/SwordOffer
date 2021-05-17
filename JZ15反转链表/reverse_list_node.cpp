@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 
-#include "../工具类/list_node.h"
+#include "../tools/list_node.h"
 using namespace std;
 /**
  * 题目：输入一个链表，反转链表后，输出新链表的表头。
