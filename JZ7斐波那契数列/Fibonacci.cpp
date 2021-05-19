@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 /**
  * 题目：大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项（从0开始，第0项为0，第1项是1）。
@@ -48,9 +49,34 @@ class Solution2 {
     }
 };
 
+/**
+ * 解法三：对解法一递归的优化，动态规划，自顶向下备忘录法。
+ * 时间复杂度：
+ */
+class Solution3 {
+   public:
+    int Fibonacci(int n) {
+        vector<int> memo(n + 1, -1);
+        return FibMemo(n, memo);
+    }
+
+    int FibMemo(int n, vector<int> &memo) {  // 传数组的引用
+        if (memo[n] != -1) {                 // 有备忘录，直接返回
+            return memo[n];
+        }
+
+        if (n < 2)
+            memo[n] = n;
+        else
+            memo[n] = FibMemo(n - 1, memo) + FibMemo(n - 2, memo);
+
+        return memo[n];
+    }
+};
+
 int main() {
     int n;
-    Solution s = Solution();
+    Solution3 s = Solution3();
     cout << "请输入 n:" << endl;
     cin >> n;
     cout << s.Fibonacci(n) << endl;
