@@ -12,6 +12,8 @@
 - [JZ9 跳台阶扩展问题](./JZ9跳台阶扩展问题/jump_float_II.cpp)
 - [JZ10 矩阵覆盖](./JZ10矩阵覆盖/rect_cover.cpp)
 - [JZ11 二进制中 1 的个数](./JZ11二进制中1的个数/number_of_1.cpp)
+- [JZ12 数值的整数次方](./JZ12数值的整数次方/power.cpp)
+- [JZ13 调整数组顺序使奇数位于偶数前面](JZ13调整数组顺序使奇数位于偶数前面/reorder_array.cpp)
 - [JZ14 链表中倒数第 k 个节点](./JZ14链表中倒数第k个节点/find_k_from_tial.cpp)
 - [JZ15 反转链表](./JZ15反转链表/reverse_list_node.cpp)
 - [JZ16 合并两个排序的列表](./JZ16合并两个排序的列表/merge_list.cpp)
