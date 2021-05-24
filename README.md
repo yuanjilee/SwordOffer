@@ -28,6 +28,8 @@
 - [JZ38 二叉树的深度](./JZ38二叉树的深度/tree_depth.cpp)
 - [JZ39 平衡二叉树](./JZ39平衡二叉树/is_balanced_tree.cpp)
 - [JZ40 数组中只出现一次的数字](./JZ40数组中只出现一次的数字/find_once_num.cpp)
+- [JZ41 和为 S 的连续正数序列](./JZ41和为S的连续正数序列/find_continuous_sequence.cpp)
+- [JZ42 和为 S 的两个数字](./JZ42和为S的两个数字/find_num_with_sum.cpp)
 - [JZ43 第一个只出现一次的字符位置](./JZ43第一个只出现一次的字符位置/find_first_char.cpp)
 - [JZ45 扑克牌顺子](./JZ45扑克牌顺子/is_continuous.cpp)
 - [JZ48 不用加减乘除做加法](./JZ48不用加减乘除做加法/add.cpp)
