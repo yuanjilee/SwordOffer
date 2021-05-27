@@ -38,4 +38,5 @@
 - [JZ50 数组中重复的数字](./JZ50数组中重复的数字/duplicate.cpp)
 - [JZ51 构建乘积数组](./JZ51构建乘积数组/multiply.cpp)
 - [JZ53 表示数值的字符串](./JZ53表示数值的字符串/is_numeric.cpp)
+- [JZ54 字符串中第一个不重复的字符](./JZ54字符串中第一个不重复的字符/first_unrepeat_char.cpp)
 - [JZ55 链表中环的入口节点](./JZ55链表中环的入口节点/entrance_node_of_circle.cpp)
