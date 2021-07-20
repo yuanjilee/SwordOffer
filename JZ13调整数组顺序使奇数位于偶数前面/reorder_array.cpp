@@ -60,9 +60,73 @@ class Solution2 {
     }
 };
 
+/**
+ * 解法三：双指针法，前后同时遍历
+ * 时间复杂度：O(n)
+ */
+class Solution3 {
+   public:
+    vector<int> reOrderArray(vector<int>& array) {
+        if (array.size() <= 1) {
+            return array;
+        }
+
+        int head = 0;
+        int tail = array.size() - 1;
+        int l_index = head;
+        int r_index = tail;
+        vector<int> ret(array.size());
+        while (head < array.size() && tail >= 0) {
+            if (array[head] % 2 == 1) {  // 偶数
+                ret[l_index] = array[head];
+                l_index++;
+            }
+            if (array[tail] % 2 == 0) {  // 奇数
+                ret[r_index] = array[tail];
+                r_index--;
+            }
+
+            head++;
+            tail--;
+        }
+        return ret;
+    }
+};
+
+/**
+ * 解法四：（如果不考虑内部先后顺序）双指针法，前后同时遍历
+ * 时间复杂度：O(n)
+ */
+class Solution4 {
+   public:
+    vector<int> reOrderArray(vector<int>& array) {
+        if (array.size() <= 1) {
+            return array;
+        }
+
+        int head = 0;
+        int tail = array.size() - 1;
+        while (head < tail) {
+            if (array[head] % 2 == 1) {  // 从前向后查找偶数
+                head++;
+                continue;
+            }
+
+            if (array[tail] % 2 == 0) {  // 从后向前查找奇数
+                tail--;
+                continue;
+            }
+
+            swap(array[head++], array[tail++]);
+        }
+
+        return array;
+    }
+};
+
 int main() {
     vector<int> v = {2, 4, 6, 5, 7};
-    vector<int> ret = Solution2().reOrderArray(v);
+    vector<int> ret = Solution3().reOrderArray(v);
     for (auto r : ret) {
         cout << r << endl;
     }
